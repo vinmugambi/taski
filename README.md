@@ -7,7 +7,8 @@ As per instructions
 Clone this repo first and then navigate to the project
 
 ```cmd
-composer install
+git clone git@github.com:vinmugambi/taski.git
+cd taski && composer install
 php artisan migrate
 ./vendor/bin/phpunit --testdox
 ```
